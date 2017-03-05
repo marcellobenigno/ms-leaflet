@@ -24,42 +24,49 @@ var distrito = L.tileLayer.wms(geoserver_url, {
     layers: 'layers=siga-urbano:distrito',
     format: 'image/png',
     transparent: true,
-    version: '1.1.0'
+    version: '1.1.0',
+    CQL_FILTER:'cod_ibge_m=5005103'
+
 });
 
 var setor = L.tileLayer.wms(geoserver_url, {
     layers: 'layers=siga-urbano:setor',
     format: 'image/png',
     transparent: true,
-    version: '1.1.0'
+    version: '1.1.0',
+    CQL_FILTER:'cod_ibge_m=5005103'
 });
 
 var quadra = L.tileLayer.wms(geoserver_url, {
     layers: 'layers=siga-urbano:quadra',
     format: 'image/png',
     transparent: true,
-    version: '1.1.0'
+    version: '1.1.0',
+    CQL_FILTER:'cod_ibge_m=5005103'
 });
 
 var lote = L.tileLayer.wms(geoserver_url, {
     layers: 'layers=siga-urbano:lote',
     format: 'image/png',
     transparent: true,
-    version: '1.1.0'
+    version: '1.1.0',
+    CQL_FILTER:'cod_ibge_m=5005103'
 });
 
 var logradouro = L.tileLayer.wms(geoserver_url, {
     layers: 'layers=siga-urbano:logradouro',
     format: 'image/png',
     transparent: true,
-    version: '1.1.0'
+    version: '1.1.0',
+    CQL_FILTER:'cod_ibge_m=5005103'
 });
 
 var unidade_cadastral = L.tileLayer.wms(geoserver_url, {
     layers: 'layers=siga-urbano:unidade_cadastral',
     format: 'image/png',
     transparent: true,
-    version: '1.1.0'
+    version: '1.1.0',
+    CQL_FILTER:'cod_ibge_m=5005103'
 });
 
 
